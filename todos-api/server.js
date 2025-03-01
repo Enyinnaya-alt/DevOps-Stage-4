@@ -1,3 +1,10 @@
+
+require('dotenv').config();
+console.log('Server running on port:', process.env.PORT);
+
+
+
+
 'use strict';
 const express = require('express')
 const bodyParser = require("body-parser")
